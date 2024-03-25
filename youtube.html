@@ -42,14 +42,19 @@
                 vertical-align: top;
                 margin-right: 15px;
             }
+
+            .video-info-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
             .channel-pic{
-                display: inline-block;
+                /* display: inline-block;
                 width: 50px;
-                vertical-align: top;
+                vertical-align: top; */
             }
             .video-info{
-                display: inline-block;
-                width: 345px;
+                /* display: inline-block;
+                width: 345px; */
             }
             .profile-pic{
                 width: 90%;
@@ -67,7 +72,7 @@
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/bill-gates-ai-gfx.webp" alt="Bill Gates picture">
             </div>
-            <div>
+            <div class="video-info-grid">
                 <div class="channel-pic">
                     <img class="profile-pic" src="channel-pics/profile-pic-1.jpg" alt="">
                 </div>
@@ -90,7 +95,7 @@
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/TryNottoLaughChallenge3.webp">
             </div>
-            <div>
+            <div class="video-info-grid">
                 <div class="channel-pic">
                     <img class="profile-pic" src="channel-pics/profile-pic-2.jpg" alt="">
                 </div>
