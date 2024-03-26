@@ -11,6 +11,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 
     background-color: white;
     border-bottom: 1px;
@@ -111,6 +112,24 @@
 
 .notifs-icon{
     height: 30px;
+}
+
+.notifs-icon-container{
+    position: relative;
+}
+.notifs-count{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    font-weight: 500;
+    padding-inline: 6px;
+    padding-block: 2px;
+    border-radius: 50%;
+    position: absolute;
+    right: -3px;
+    top: -5px;
+
 }
 
 .user-profile-pic{
