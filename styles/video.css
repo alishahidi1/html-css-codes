@@ -39,6 +39,7 @@
 .video-info{
     /* display: inline-block;
     width: 345px; */
+    padding-left: 10px;
 }
 .profile-pic{
     width: 90%;
