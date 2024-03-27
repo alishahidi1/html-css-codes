@@ -56,7 +56,6 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
-    font-family: Robot, Arial;
     font-size: 14px;
     font-weight: 500;
     padding-block: 4px;
@@ -69,5 +68,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
     row-gap: 40px;
-    /* padding-top: 55px; */
+}
+
+@media (max-width: 800px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
